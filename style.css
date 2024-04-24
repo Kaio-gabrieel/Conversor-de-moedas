@@ -1,0 +1,106 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #1676B2;
+}
+
+.logo {
+    width: 260px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 20px 24px 23px;
+    background-color: #338DC1;
+    border: 1px solid #ffffff;
+}
+
+label {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 550;
+    background-color: #f2d06b;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #000;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #f2d06b;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency .currency-value-to-convert {
+    color: #7777;
+    font-size: 14px;
+}
+
+.currency-value {
+    color: #555;
+    font-weight: 700;
+    font-size: 20px;
+}
+

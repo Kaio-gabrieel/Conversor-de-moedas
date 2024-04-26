@@ -11,7 +11,7 @@ const SelectConvert = document.getElementById("select-a-convert");
 
 
             const DolarToday = 5.2;
-            const Eurotoday =5.2;
+            const Eurotoday =5.7;
             const LibraToday = 6.4;
             const BitcoinToday = 328;
 
@@ -85,6 +85,7 @@ const SelectConvert = document.getElementById("select-a-convert");
                                 currency:"BRL"
                             }).format(inputCurrencyValue)
                             }  
+     convertValues()
 }
 
 
@@ -162,7 +163,7 @@ function CurrencyAchange(){
                 Imgconvert.src = "./assets/Euro.png"
     
         }
-
+        convertValues()
         
 }
 

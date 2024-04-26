@@ -85,7 +85,7 @@ const SelectConvert = document.getElementById("select-a-convert");
                                 currency:"BRL"
                             }).format(inputCurrencyValue)
                             }  
-     convertValues()
+
 }
 
 
@@ -124,7 +124,7 @@ if ( currencytSelect.value == "Euro"){
     ImgDolar.src = "./assets/Euro.png"
 }
 
-
+convertValues()
 
 }
 
@@ -136,7 +136,7 @@ function CurrencyAchange(){
     
 
 
-    if ( SelectConvert.value == "Bitcoin"){
+        if ( SelectConvert.value == "Bitcoin"){
         NameCurrency.innerHTML = "Bitcoin"
         Imgconvert.src= "./assets/bitcoin 1.png"
         
@@ -162,7 +162,7 @@ function CurrencyAchange(){
                 NameCurrency.innerHTML = "Euro"
                 Imgconvert.src = "./assets/Euro.png"
     
-        }
+            }
         convertValues()
         
 }

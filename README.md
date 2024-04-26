@@ -2,7 +2,7 @@
 <br>
 <p>Esse é um projeto onde o usúario  converter as principais moedas do mundo, de maneira simples e obejtiva. </p>
 <br>
-<img src="">
+<img src="https://github.com/Kaio-gabrieel/Conversor-de-moedas/blob/main/assets/Captura%20de%20tela%202024-04-26%20144008.png?raw=true">
 
 <h2>Principais Tecnologias desse projeto:
   <br>
